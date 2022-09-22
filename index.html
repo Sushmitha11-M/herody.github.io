@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body{
+    background-color: #000000;
+    color: white
+  }
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 200px solid #C0C0C0;}
+* {box-sizing: border-box;}
+
+input[type=text], input[type=password] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+}
+
+.container {
+  padding: 16px
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+/**************************************************************************************************/
+
+
+
+</style>
+</head>
+<body>
+
+<form>
+  </div>
+
+  <div class="container">
+    <div class="transbox">
+    <label for="email"><b>Email</label><br>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <br>
+    <label for="name"><b>Name</label><br>
+    <input type="text" placeholder="Enter Username" name="name" required>
+    <br>
+    <label for="nbr"><b>Mobile Number</label><br>
+    <input type="text" placeholder="Enter Mobilenumber" name="nbr" required>
+    <br>
+    <label for="adds"><b>Address</label><br>
+    <input type="text" placeholder="Enter Address" name="adds" required>
+      <br> 
+    <label for="city"><b>City</label><br>
+    <input type="text" placeholder="Enter City" name="city" required>
+      <br>
+    <label for="state"><b>State</label><br>
+    <input type="text" placeholder="Enter state" name="state" required>
+      <br> 
+    <label for="code"><b>Pincode</label><br>
+    <input type="text" placeholder="Enter pincode" name="code" required>
+      <br>
+    <label for="country"><b>Country</label><br>
+    <input type="text" placeholder="Enter Country" name="country" required>
+      <br>
+    <label for="cname"><b>Company Name</label><br>
+    <input type="text" placeholder="Enter current company" name="cname" required>
+      <br>
+    <label for="occupation"><b>Occupation</label><br>
+    <input type="text" placeholder="Enter your Occupation" name="occupation" required>
+      <br>
+    <label for="yoe"><b>Years of Experience</label><br>
+    <input type="text" placeholder="Enter your Experience" name="yoe" required>
+      <br>
+    <label for="psw"><b>Password</label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+    <label for="psw"><b>Repeate Password</label><br>
+    <input type="password" placeholder="Enter Password again" name="psw" required>
+      <br>
+      <center> 
+<button type="submit" value = "submit">Sign Up</button>
+    <br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">
+      <a href="index1.html">Cancel</a></button>
+  </div>
+</div>
+</form>
+
+</body>
+</html>
